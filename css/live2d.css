@@ -1,0 +1,42 @@
+           			#glcanvas {
+                position: absolute;
+                background-size: 75%;
+                
+            }
+            
+            #btnChange {
+                display: none;
+            }
+
+            #THREETHREE
+            {
+                width:200px;
+                height:300px;
+                right:0px;
+                bottom:0px;
+                position:absolute;
+                z-index: 200;
+            }
+
+		   @media screen and (max-width: 980px) {
+			#glcanvas {
+                position: absolute;
+                background-size: 75%;
+                display: none;
+            }
+            
+            #btnChange {
+                display: none;
+            }
+
+            #THREETHREE
+            {
+                width:200px;
+                height:300px;
+                right:0px;
+                bottom:0px;
+                position:absolute;
+                z-index: -1;
+				display: none;
+            }
+			}
